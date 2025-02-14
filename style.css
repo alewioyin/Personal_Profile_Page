@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #333;
+}
+
+#profilePicture {
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+.links {
+    width: 100%;
+    padding: 1.25rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: chocolate;
+    margin-bottom: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+a:hover {
+    color:#333;
+    text-decoration: underline;
+}
+
+#about_me {
+    background-color: darkslategrey;
+    color:white;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+input, textarea {
+    margin-bottom: 8px;
+    padding-left: 12px;
+    height: 34px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #a8a8a8;
+    font-size: 14px;
+}
+
+#message {
+    resize: none;
+    height: 60px;
+    padding-top: 12px;
+}
+
+
+table thead tr th{
+    border: 1px solid darkslategrey;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 16px;
+}
+
+table tbody tr td{
+    border: 1px solid darkslategrey;
+    padding: 8px 16px;
+    background-color: #e8e8e84f;
+}
+
+.odd {
+    background-color: #fff;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="introduction" style="color: #000; font-size: 16px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rebeccapurple; padding: 2rem; width: 100%;">
+        <h1 style="color: gold; margin-bottom: 12px;">Alewi Rhoda Oyinkansola</h1>
+        <p style=" width: 60%; text-align: center; line-height: 22px; color: white;">I am enthusiastic to learn about front-end Development. I love to make an impact and solve solutions. I love learning new things/ideas and putting them into practice. I am currently learning at TechyJaunt online program.</p>   
+    </div>
+
+    <img src="./Profile Pics.png" alt="Profile pics" id="profilePicture">
+
+    <div class="links">
+        <a href="https://github.com/alewioyin/Personal_Profile_Page" target="_blank">My Github Repo</a>
+        <a href="/about.html">About Me Page</a>
+        <a href="#about_me">About Me Section</a>
+    </div>
+   
+    <form id="myForm" style="display:flex; flex-direction: column; background-color: aliceblue; width: 36%; padding: 20px 32px 32px; border-radius: 20px; margin-bottom: 2rem; box-shadow: 1px 1px 10px #ffffff76;">
+        <h2 style="text-align: center; text-decoration: underline; margin-bottom: 16px;">My Form</h2>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" placeholder="Enter your message" style="resize: none;"></textarea>
+
+        <button type="submit" id="btn" style="background-color: chocolate; height: 36px; outline: none;
+        border: none; border-radius: 12px; color: #fff; font-size: 16px; font-weight: 600; margin-top: 8px;">Submit</button>
+    </form>
+
+    <div style="display: flex; flex-direction: column; align-items: center; width: 100%; background-color: aliceblue;  padding: 20px; ">
+        <table style="background-color: aliceblue;">
+            <h2 style="margin-bottom: 12px; text-decoration: underline;">My 3 favourite hobbies</h2>
+            <thead>
+              <tr style="border: 1px solid red;">
+                <th>Favourite Hobbies</th>
+                <th>Reason I like it</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td class="odd">Swimming</td>
+                    <td class="odd">I like to swim because it makes me feel relaxed whenever I am stressed or overwhelmed</td>
+                </tr>
+                <tr>  
+                    <td>Reading</td>
+                    <td>I read to gain more knowledge</td>
+                </tr>
+                <tr>
+                    <td class="odd">Watching movies</td>
+                    <td class="odd">I love watching movies when am bored or overwhelmed. It gives me an escape from reality</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+    <section id="about_me">
+        <h2 style="color: gold; margin-bottom: 1rem;">About Me Section</h2>
+        <p>This is an about me section. This is to test my understanding of how to create a link that takes users directly to a section which is on the same page.</p>
+    </section>
+</body>
+</html>
